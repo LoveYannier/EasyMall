@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+ <tlib-version>1.0</tlib-version>
+ <short-name>itg</short-name>
+ <uri>http://www.tedu.cn/tag/itag</uri>
+ <tag>
+ 	<name>urldec</name>
+ 	<tag-class>cn.tedu.tag.MyDecoder</tag-class>
+ 	<body-content>empty</body-content>
+ 	<attribute>
+ 		<name>name</name>
+ 		<required>true</required>
+ 		<rtexprvalue>false</rtexprvalue>
+ 		<type>String</type>
+ 	</attribute>
+ </tag>
+</taglib>
